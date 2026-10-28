@@ -3,36 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel Recommendation Website</title>
+    <title>Travel Recommendation Website - Home</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Navigation Bar -->
     <nav class="navbar">
         <div class="logo">
             <h2>TravelBloom</h2>
         </div>
         <div class="nav-links">
-            <a href="#">Главная</a>
-            <a href="#">About Us</a>
-            <a href="#">Contact Us</a>
+            <a href="index.html">Главная</a>
+            <a href="about_us.html">About Us</a>
+            <a href="contact_us.html">Contact Us</a>
         </div>
         
         <div class="search-container">
-            <input type="text" id="searchInput" placeholder="Enter a destination or keyword (e.g. beaches, temples, countries)">
+            <input type="text" id="searchInput" placeholder="Enter a destination (e.g. beaches, temples)">
             <button type="button" class="btn-search" id="searchBtn">Search</button>
             <button type="button" class="btn-clear" id="clearBtn">Clear</button>
         </div>
     </nav>
 
-    <!-- Main Content -->
     <main class="main-content">
         <div class="hero-text">
             <h1>Explore your Dream Destination</h1>
             <p>Discover the world's most beautiful beaches, majestic temples, and vibrant countries. Your next adventure awaits.</p>
         </div>
         
-        <!-- Search Results Container -->
         <div id="resultsContainer" class="results-container">
             <!-- Results will be injected here via JavaScript -->
         </div>
